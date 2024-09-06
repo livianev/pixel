@@ -1,1 +1,21 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+/* Reseta margens, preenchimentos e configura o box-sizing para border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PIXEL px (é absoluto) */
+/* Estilos para a primeira sessão */
+.primeira-sessao {
+  border: solid rgb(133, 133, 233) 4px;
+  /* Estilos adicionais para a seção, se necessário */
+}
+
+/* Estilos para a div dentro da primeira sessão */
+.primeira-sessao div {
+  width: 200px; /* Largura da div */
+  background-color: rgba(46, 120, 121, 0.336); /* Cor de fundo da div */
+  height: 200px; /* Altura da div */
+}/*# sourceMappingURL=style.css.map */

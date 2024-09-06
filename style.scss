@@ -1,28 +1,21 @@
-*{
+/* Reseta margens, preenchimentos e configura o box-sizing para border-box */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    }
-    
-    // PIXEL px (é absoluto)
-    
-    // section
-    .primeira-sessao{
-        border: solid rgb(133, 133, 233) 4px;
-    
-    // borda: 3 valores
-    // solid, tipo da bord; cor, espessura
-    // aninhamento, organiza os estilos das tags de acordo com a sua organização hereditaria
-    // apenas a div que está dentro da primeira sessão vai receber este estilo.
-    
-    div
-    // largura
-    width: 200px;
-    // cor de fund
-background-color: 
-orangered;
-height: 200px;
+}
 
-    
-     }
+/* PIXEL px (é absoluto) */
+
+/* Estilos para a primeira sessão */
+.primeira-sessao {
+    border: solid rgb(133, 133, 233) 4px;
+    /* Estilos adicionais para a seção, se necessário */
+}
+
+/* Estilos para a div dentro da primeira sessão */
+.primeira-sessao div {
+    width: 200px; /* Largura da div */
+    background-color: rgba(46, 120, 121, 0.336); /* Cor de fundo da div */
+    height: 200px; /* Altura da div */
+}
